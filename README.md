@@ -1,7 +1,7 @@
 # STSQ-Dark-Energy-Model-Analysis
 The repository contains a class and other files to solve the equation of motion for an Quintessence dark energy model and simulate luminosity distance and growth factor evolution in this context. It also checks the early dark energy constraints imposed by the CMB.
 
-# main_class.py
+## main_class.py
 This file essentially contains the Runge-Kutta algorithms to solve to differential equations: the single, real scalar field equation (determines how the STSQ scalar field evolves in time) for a FLRW universe and the perturbation equation for a FLRW universe (determines how the growth factor evolves in time). What distinguishes the STSQ field from other scalar fields is its potential: it has an exponential functional form that changes at a critical redshift 'z_c'; it also has a paramter called 'eta', determining how steeply the potential decays. Solving the first equaiton gives us an observable like the luminosity distance, solving the second one gives us the growth factor; both observables can be computed for the STSQ and Lambda-CDM case. This file does not need modification to run.
 
 # gdeviation(z)
