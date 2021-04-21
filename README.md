@@ -4,7 +4,9 @@ This repository contains a class called 'main_class.py' and other files to solve
 ### main_class.py
 This file contains the Runge-Kutta algorithm(s) used to solve two differential equations: the single, real scalar field equation (which determines how the STSQ             scalar field evolves in time) for a FLRW universe and the matter density perturbation equation for a FLRW universe (determines how the growth factor evolves in time). The class parameters are 'z<sub>c</sub>', which is the critical redshift, 'η', which determines how steeply the potential decays, 'z<sub>i</sub>', which is the initial redshift chosen for the simulation, 'N', which is the number of points generated and a boolean (True or False). Solving the equation of motion gives us an observable like the luminosity distance while solving the perturbation equation gives us the growth factor; both observables can be computed for the STSQ and ΛCDM case. For the DGP model only γ is computed. This file also contains the functions that evaluate the fractional accuracies for the different variables.
 Functions of the file:
-- 
+- a
+- b
+- c
 This file does not need modification to run.
 
 ### gdeviation(z)
