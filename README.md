@@ -15,10 +15,10 @@ This file plots the fractional deviation in the luminosity distances of the STSQ
 ### lumdis(eta).py
 This file plots the fractional deviation in the luminosity distances of the STSQ and the ΛCDM models for different values of η. One can also vary the initial redshift z<sub>i</sub> or N, the number of reiterations, for greater precision (and a greater number of points).
 
-### gdeviation(eta)
+### gdeviation(eta).py
 This file plots the fractional difference in the growth factor combination fσ<sub>m</sub> of the STSQ and the ΛCDM models, for different values of η. One can also vary the initial redshift z<sub>i</sub> and N, for greater precision (or a greater number of points).
 
-### gdeviation(z)
+### gdeviation(z).py
 This file plots the fractional difference in the growth factor combination fσ<sub>m</sub> of the STSQ and the ΛCDM models, for different values of z<sub>c</sub>. One can also vary the initial redshift z<sub>i</sub> and N, for greater precision (or a greater number of points).
 
 ### gammas(eta).py
